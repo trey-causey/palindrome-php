@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sitejsvh/palindrome.sitesystemhub.com/
     - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp -r src $DEPLOYPATH
